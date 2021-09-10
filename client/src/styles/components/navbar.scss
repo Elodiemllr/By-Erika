@@ -1,8 +1,26 @@
+@use './vars';
 .navbar {
-    &_home {
+    display: flex;
+    flex-direction: row;
+    &_link {
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+
+        span {
+            font-size: 2rem;
+            color: #2f2e2e;
+        }
+        span:hover {
+            color: #ffffff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
         &_logo {
-            width: 2em;
-            height: fit-content;
+            padding-bottom: 10rem;
         }
     }
 }
