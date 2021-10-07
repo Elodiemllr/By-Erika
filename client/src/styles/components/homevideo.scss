@@ -1,0 +1,12 @@
+.homevideo {
+    &__video {
+        height: 60rem;
+        width: 70%;
+        margin: auto;
+
+        &__cup {
+            height: inherit;
+            width: 100%;
+        }
+    }
+}

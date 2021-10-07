@@ -1,9 +1,12 @@
-@use './vars';
+@use "./vars";
 .navbar {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin: auto;
     &_link {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         width: fit-content;
         height: fit-content;
 
@@ -20,7 +23,7 @@
         }
 
         &_logo {
-            padding-bottom: 10rem;
+            padding-bottom: 2rem;
         }
     }
 }
