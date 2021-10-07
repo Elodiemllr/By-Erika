@@ -4,35 +4,26 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
     return (
         <div className="navbar">
-            <div className="navbar_link">
-                <NavLink exact to="/presentation">
-                    <span>Mon histoire</span>
-                </NavLink>
-            </div>
-            <div className="navbar_link">
-                <NavLink exact to="/realisation">
-                    <span>Réalisations</span>
-                </NavLink>
-            </div>
-            <div className="navbar_link">
-                <NavLink exact to="/home">
-                    <img
-                        src="./img/logo.svg"
-                        alt="logo"
-                        className="navbar_link_logo"
-                    ></img>
-                </NavLink>
-            </div>
-            <div className="navbar_link">
-                <NavLink exact to="/temoignage">
-                    <span>Témoignages </span>
-                </NavLink>
-            </div>
-            <div className="navbar_link">
-                <NavLink exact to="/contact">
-                    <span>Contact </span>
-                </NavLink>
-            </div>
+            <NavLink exact to="/presentation" className="navbar__link">
+                Mon histoire
+            </NavLink>
+            <NavLink exact to="/realisation" className="navbar__link">
+                Réalisations
+            </NavLink>
+
+            <NavLink exact to="/home" className="navbar__link">
+                <img
+                    src="./img/logo.svg"
+                    alt="logo"
+                    className="navbar__link__logo"
+                ></img>
+            </NavLink>
+            <NavLink exact to="/temoignage" className="navbar__link">
+                Témoignages
+            </NavLink>
+            <NavLink exact to="/contact" className="navbar__link">
+                Contact
+            </NavLink>
         </div>
     );
 };
