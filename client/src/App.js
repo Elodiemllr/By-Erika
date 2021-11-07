@@ -5,19 +5,21 @@ import {
     Route,
     Switch,
 } from "react-router-dom";
-import Contact from "./pages/Contact.js";
+import Contact from "./pages/contact.js";
 import Home from "./pages/Home.js";
-import Presentation from "./pages/Presentation.js";
-import Realisation from "./pages/Realisations.js";
+import MonHistoire from "./pages/monHistoire.js";
+import Realisation from "./pages/realisation.js";
+import Temoignage from "./pages/temoignages.js";
 
 const App = () => {
     return (
         <Router>
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/presentation" exact component={Presentation} />
-                <Route path="/realisation" exact component={Realisation} />
-                <Route path="/contact" exact component={Contact} />
+                <Route path="/MonHistoire" exact component={MonHistoire} />
+                <Route path="/Realisation" exact component={Realisation} />
+                <Route path="/Temoignage" exact component={Temoignage} />
+                <Route path="/Contact" exact component={Contact} />
                 <Redirect to="/" />
             </Switch>
         </Router>

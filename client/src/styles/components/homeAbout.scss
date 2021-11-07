@@ -1,0 +1,52 @@
+@use "./vars";
+
+.homeAbout {
+    height: 80em;
+    width: 100%;
+
+    &__img {
+        height: 35em;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    &__div {
+        position: absolute;
+        background-color: #f5efef;
+        width: 50%;
+        height: 35em;
+        top: 60%;
+        left: 25%;
+    }
+    &__divtext {
+        padding: 5em;
+        text-align: center;
+    }
+}
+
+#homeAbout__h1 {
+    color: #a9a49b;
+    font-family: "pretrona", Extra-light;
+    font-weight: 100;
+    font-size: 5em;
+}
+
+#homeAbout__h2 {
+    color: black;
+    font-family: "Reenie Beanie";
+    font-weight: 100;
+    font-weight: normal;
+    font-size: 2.7em;
+    width: 11em;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#homeAbout__p {
+    font-family: "roboto";
+    font-size: x-large;
+    width: 31em;
+    margin: auto;
+}
