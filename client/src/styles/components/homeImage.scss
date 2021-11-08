@@ -1,18 +1,14 @@
 @use "./vars";
 
 .homeImage {
-    width: 70%;
+    display: flex;
+    width: fit-content;
     margin: auto;
     height: 50em;
-    margin-top: 5em;
-
-    &__boxs {
-        display: flex;
-    }
     &__box {
-        width: 3em;
-        height: 5em;
-        margin: 2em;
+        width: 15em;
+        height: 20em;
+        margin: 1em;
         object-fit: cover;
     }
 }

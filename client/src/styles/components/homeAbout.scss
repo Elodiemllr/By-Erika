@@ -14,14 +14,14 @@
     &__div {
         position: absolute;
         background-color: #f5efef;
-        width: 50%;
+        width: 65%;
         height: fit-content;
-        top: 28em;
+        top: 35em;
         left: 50%;
         transform: translate(-50%);
     }
     &__divtext {
-        padding: 5em;
+        padding: 2.5em;
         text-align: center;
     }
 }
@@ -30,7 +30,7 @@
     color: #a9a49b;
     font-family: "pretrona", Extra-light;
     font-weight: 100;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 #homeAbout__h2 {
@@ -38,7 +38,7 @@
     font-family: "Reenie Beanie";
     font-weight: 100;
     font-weight: normal;
-    font-size: 2.7em;
+    font-size: 2em;
     max-width: 11em;
     margin: auto;
     margin-top: 0.5em;
@@ -47,7 +47,7 @@
 
 #homeAbout__p {
     font-family: "roboto";
-    font-size: 1.7em;
+    font-size: 1em;
     max-width: 31em;
     margin: auto;
 }
