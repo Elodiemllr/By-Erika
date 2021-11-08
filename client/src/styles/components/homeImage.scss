@@ -1,0 +1,18 @@
+@use "./vars";
+
+.homeImage {
+    width: 70%;
+    margin: auto;
+    height: 50em;
+    margin-top: 5em;
+
+    &__boxs {
+        display: flex;
+    }
+    &__box {
+        width: 3em;
+        height: 5em;
+        margin: 2em;
+        object-fit: cover;
+    }
+}

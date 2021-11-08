@@ -1,24 +1,25 @@
 @use "./vars";
-.navbar {
-    display: flex;
-    width: 100%;
-    height: 20%;
-    align-items: center;
-    justify-content: center;
 
-    &__link {
-        text-decoration: none;
-        color: rgba(0, 0, 0, 0.8);
-        margin: 0 40px;
-        font-size: 1.5rem;
+.navbar .navbar-collapse {
+    background-color: #ffff;
+}
+.navbar__logo {
+    width: 20em;
+    height: auto;
+}
 
-        &__logo {
-            width: 400px;
-            height: 100%;
-        }
-    }
+.nav-item {
+    position: relative;
+    margin: 1em;
+}
 
-    &__link:hover {
-        color: rgba(255, 255, 255, 0.8);
-    }
+.nav-link {
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-logo-centered .navbar-nav .nav-link {
+    padding: 0.5em 1em;
 }
