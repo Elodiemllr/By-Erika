@@ -1,25 +1,27 @@
 @use "./vars";
 
-.navbar .navbar-collapse {
-    background-color: #ffff;
-}
-.navbar__logo {
-    width: 20em;
-    height: auto;
-}
+@media only screen and (min-width: 1024px) {
+    .navbar .navbar-collapse {
+        background-color: #ffff;
+    }
+    .navbar__logo {
+        width: 20em;
+        height: auto;
+    }
 
-.nav-item {
-    position: relative;
-    margin: 1em;
-}
+    .nav-item {
+        position: relative;
+        margin: 1em;
+    }
 
-.nav-link {
-    position: inherit;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .nav-link {
+        position: inherit;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-.navbar-logo-centered .navbar-nav .nav-link {
-    padding: 0.5em 1em;
+    .navbar-logo-centered .navbar-nav .nav-link {
+        padding: 0.5em 1em;
+    }
 }
